@@ -4,7 +4,7 @@ library(shinydashboard)
 library(mongolite)
 
 # MongoDB connection string (update credentials if needed)
-mongo_uri <- "mongodb+srv://sangita:B1DFaFEXdR91SzRD@production-titan-cluste.ysuki.mongodb.net/master?readPreference=secondaryPreferred&ssl=true"
+mongo_uri <- "mongodb+srv://sangita:B@production-titan-cluste.ysuki.mongodb.net/master?readPreference=secondaryPreferred&ssl=true"
 
 # UI for the Shiny app
 ui <- dashboardPage(
